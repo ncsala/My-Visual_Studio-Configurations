@@ -1,0 +1,85 @@
+{
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"files.associations": {
+    ".env*": "dotenv"
+  },
+	"dotenv.enableAutocloaking": false,
+	"[markdown]": {
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"redhat.telemetry.enabled": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"nxConsole.showNodeVersionOnStartup": false,
+	"editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": []
+  },
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"editor.wordWrap": "on",
+	"editor.guides.bracketPairs": true,
+	"editor.linkedEditing": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.sideBar.location": "right",
+
+	"workbench.editor.showTabs": "multiple",
+
+	"workbench.editor.pinnedTabsOnSeparateRow": true,
+	"workbench.colorTheme": "SynthWave '84",
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": true,
+	"explorer.confirmDragAndDrop": true,
+	"git.openRepositoryInParentFolders": "never",
+	"git.branchProtection": ["main", "master", "staging", "develop"],
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	"javascript.preferences.useAliasesForRenames": false,
+	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+	"javascript.inlayHints.parameterTypes.enabled": true,
+	"javascript.inlayHints.enumMemberValues.enabled": true,
+	"typescript.preferences.useAliasesForRenames": false,
+	"typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"typescript.inlayHints.enumMemberValues.enabled": true,
+	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+	"typescript.inlayHints.variableTypes.enabled": true,
+	"workbench.productIconTheme": "fluent-icons",
+	"dotenv.cloakColor": "#ff0000",
+	"githubPullRequests.pullBranch": "never",
+	"vscode_custom_css.imports": [
+		"file:///Users/nicolascaceressala/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.14/synthwave-x-fluoromachine.css"
+	]
+}
